@@ -10,3 +10,6 @@ vim data/user_stats.csv
 
 # run bot
 python3 mybot.py
+
+# activate venv
+source ~/yadisk_env/bin/activate
