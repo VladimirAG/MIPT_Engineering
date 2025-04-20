@@ -13,3 +13,6 @@ python3 mybot.py
 
 # activate venv
 source ~/yadisk_env/bin/activate
+
+# run permanently
+nohup python3 bot_ya.py &
