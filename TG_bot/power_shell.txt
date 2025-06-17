@@ -1,0 +1,18 @@
+# start connection
+yc compute ssh --id fv4p2aqj00jq4g7hr7ip
+
+# navigate to bot
+cd skillbot/TGbot
+
+# check files in bot, check logs
+ls data/
+vim data/user_stats.csv
+
+# run bot
+python3 mybot.py
+
+# activate venv
+source ~/yadisk_env/bin/activate
+
+# run permanently
+nohup python3 bot_ya.py &
