@@ -29,7 +29,7 @@ def evaluate_model(data_path, model_path, metrics_path):
     }
 
     with open(metrics_path, "w") as f:
-        json.dump(metrics, f, indent=4)
+        json.dump(metrics, f)
 
 
 if __name__ == "__main__":
