@@ -10,7 +10,7 @@ default_args = {
     "owner": "airflow",
     "depends_on_past": False,
     "retries": 2,                  
-    "retry_delay": timedelta(minutes=3),
+    "retry_delay": timedelta(minutes=5),
     "execution_timeout": timedelta(minutes=15),  
     "start_date": datetime(2025, 6, 17),
     "on_failure_callback": notify_failure, 
